@@ -1,0 +1,53 @@
+body,dt,dd,dl,ul,ol,li,a,table,tr,td,th,span,form,div,h1,h2,h3,h4,h5,input,button,p,textarea{
+	padding:0; margin:0;
+	font-family:"微软雅黑","Helvetica Neue", helvetica, arial, sans-serif;
+	line-height: 1em;
+}
+ul,ol,li{
+	list-style: none;	
+}
+
+button{outline: none;}
+
+a{
+	text-decoration: none;
+	display: block;
+	color:inherit;
+}
+
+img{
+	border:none;
+	display: block;
+}
+input,textarea{outline: none;}
+textarea{resize: none;}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+.clear{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearfloat{
+	zoom:1;
+}
+
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
